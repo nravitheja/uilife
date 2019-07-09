@@ -4,30 +4,47 @@
     <meta charset="UTF-8">
     <title>HTML Anchor Tag</title>
     <style>
+        html{
+            scroll-behavior: smooth;
+        }
         body{
             font-family: Arial,sans-serif;
         }
+
     </style>
 </head>
 <body>
 
+    <div id="home">
+        <h1>Home Section</h1>
+    </div>
+
     <!-- Simple Links -->
     <p>External Links</p>
+    <a href="http://www.google.co.in">Google</a>
 
     <!-- Local Links -->
     <p>Local Links</p>
+    <a href="09_HTML_Tables.html">Tables Page</a> |
+    <a href="08_HTML_Images.html">Image Page</a>
 
     <!-- Links with target -->
     <p>Links with target</p>
+    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
 
     <!-- Images as Links -->
     <p>Images as Links</p>
+    <a href="https://www.amazon.in" target="_blank">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/in-certifiedrefurbished/gateway/Speakers_1174172_260._CB443372723_SY260_.jpg" width="100" height="100">
+    </a>
 
     <!-- Bookmarks with Ids -->
     <p>Bookmarks with Ids</p>
+    <a href="#home">Go to Home</a>
 
     <!-- Download a file -->
     <p>Download a file</p>
+    <a href="img/HTML_JavaScript.pdf" download="Notes">Download a file</a>
 
 </body>
 </html>
